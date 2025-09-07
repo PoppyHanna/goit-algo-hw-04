@@ -29,4 +29,4 @@ try:
     user_level = int(input("Введіть рівень рекурсії і натисніть 'Enter' (наприклад, 2 або 3): "))
     draw_snowflake(user_level)
 except ValueError:
-    print("✗ Помилка: потрібно ввести ціле число")
+    print("Помилка: потрібно ввести ціле число")
